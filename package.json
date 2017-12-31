@@ -1,0 +1,31 @@
+{
+  "name": "pixijs-with-typescript",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack -p --env=prod --progress",
+    "start": "./node_modules/.bin/webpack-dev-server --inline --hot --history-api-fallback --content-base ./public"
+  },
+  "keywords": [],
+  "author": "darkaqua",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/pixi.js": "latest",
+    "awesome-typescript-loader": "latest",
+    "browser-sync": "latest",
+    "browser-sync-webpack-plugin": "latest",
+    "css-loader": "latest",
+    "cssnano": "latest",
+    "less": "latest",
+    "less-loader": "latest",
+    "optimize-css-assets-webpack-plugin": "latest",
+    "pixi.js": "latest",
+    "progress-bar-webpack-plugin": "latest",
+    "style-loader": "latest",
+    "typescript": "latest",
+    "uglifyjs-webpack-plugin": "latest",
+    "webpack": "latest",
+    "webpack-dev-server": "latest"
+  }
+}
